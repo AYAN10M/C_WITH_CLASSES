@@ -35,5 +35,23 @@ int main()
         cout << endl;
     }
 
+    for (int i = row; i > 0 ; i--)
+    {
+        // for printing " "
+        for (int k = 1 ; k <= row - i; k++)
+        {
+            cout << " ";
+        }
+        
+        // for printing "*"
+        for (int j = 1; j <= 2*i - 1; j++)
+        {
+            cout << "*";
+        }
+        
+        
+        cout << endl;
+    }
+
     return 0;
 }
