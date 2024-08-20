@@ -6,14 +6,16 @@ int main()
     int row;
     cout << "Enter the no of row:\t";
     cin >> row;
-    for (int i = 0; i < row; i++)
+
+    int half = row / 2;
+
+    for (int i = 1; i <= row; i++)
     {
-        for (int j = 0; i < count; i++)
+        for (int j = 1; j <= i; j++)
         {
-            /* code */
+            cout << "*";
         }
-        
+        cout << endl;
     }
-    
     return 0;
 }
